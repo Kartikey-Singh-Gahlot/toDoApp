@@ -15,7 +15,7 @@ A simple and fun web-based to-do list built using React, HTML and CSS with add, 
 
 - React.js - Component-based UI and state management
 - HTML - Structure of the game
-- CSS - Styling and animations
+- TailwindCSS - Styling and animations
 - JavaScript - Logic and interactivity
 
 
