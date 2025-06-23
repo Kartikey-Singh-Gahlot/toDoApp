@@ -26,10 +26,10 @@ export default function App() {
   function trgrCaseChange(){
     setItems((prev)=>{ return [...prev.map((i)=>{
        if(i.case != 1){
-         return {content:i.content.toUpperCase(), case:1 };
+         return {...i,content:i.content.toUpperCase(), case:1 };
        }
        else{
-         return {content:i.content.toLowerCase(), case:0 };
+         return {...i,content:i.content.toLowerCase(), case:0 };
        }
      })]})
   }
