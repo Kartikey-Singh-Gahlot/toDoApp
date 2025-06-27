@@ -46,7 +46,7 @@ export default function App() {
                   <button  className=" hover:bg-[burlywood] text-amber-50 bg-black hover:text-black border-[1px] border-black py-0.5 px-2 rounded-[10px_10px]" onClick={trgrCaseChange}>aA</button>
                 </div>
                <ul className='list-decimal'>
-                {items.map((i)=>{ return <div className='flex justify-center'> <li className=' break-words overflow-wrap hover:bg-transparent hover:text-black border-b-black border-b-[2px] relative justify-between text-black w-[50vw] px-2 text-left py-1 my-1'>{i.content}</li> <button  onClick={()=>{trgrDelete(i.id)}} className=' hover:text-red-600  rounded-2xl  px-3 text-black text-[20px] h-full top-0 text-center font-semibold'>x</button> </div> })}
+                {items.map((i)=>{ return <div className='flex justify-center'> <li className=' break-words overflow-wrap hover:bg-transparent hover:text-black border-b-black border-b-[2px] relative justify-between text-black w-[50vw] px-2 text-left py-1 my-1'>{i.content}</li><input type='checkbox'/> <button  onClick={()=>{trgrDelete(i.id)}} className=' hover:text-red-600  rounded-2xl  px-3 text-black text-[20px] h-full top-0 text-center font-semibold'>x</button> </div> })}
                </ul>
                
          </div> 
